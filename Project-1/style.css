@@ -1,0 +1,244 @@
+/*  border-block: 1px solid black; */
+body{
+    padding: 0px;
+    margin: 0;
+    /* box-sizing: border-box; */
+
+}
+.main_page{
+    display: flex;
+    /* border-block: 1px solid black; */
+    justify-content: space-between;
+    align-items: center;
+    padding-right: 100px;
+    padding-left: 80px;
+    box-shadow: 5px 5px 5px grey;
+    margin: 0%;
+    z-index: 50; 
+     
+    
+}
+.bar :hover{
+    color: rgb(17, 210, 72);
+    
+
+}
+
+.food_logo{
+    padding-top: 20px;
+    padding-left: 50px;
+}
+.main_part{
+    display: flex;
+}
+
+.green_box{
+    background-color: rgb(26, 186, 36);
+    margin-right: 300px;
+
+    border-radius: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.head{
+    font-size:30px ;
+}
+.button{
+    background-color: orange;
+    font-size: 30px;
+    border: 0px;
+    border-radius: 5px;
+    cursor: pointer;
+    opacity:80%;
+    color: white;
+    
+    
+    
+}
+.right{
+    margin-left: 100px;
+    margin-top: 50px;
+}
+
+.space{
+    height: 200px
+}
+
+.benifit{
+    display: flex;
+}
+.all_benifits{
+    display: flex;
+    justify-content: space-evenly;
+    margin-left: 300px;
+    margin-right: 180px;
+}
+.ourmenu h5{
+    background-color: rgb(18, 203, 55);
+    height: 17px;
+    width: 120px;
+    padding: 10px;
+    font-size: 25px;
+    /* margin-right: ; */
+    margin-left: 30px;
+    border-radius: 5px; 
+    padding-bottom: 20px;
+    
+}
+.ourmenu p{
+    font-size: 25px;
+    margin-left:9px;
+}
+.ourmenu{
+    margin-left: 43%;
+}
+.two{
+    display: flex;
+    justify-content: space-between;
+    
+}
+.collage{
+    display: flex;
+    justify-content: space-evenly;
+    margin: 8% ;
+   
+    gap: 50px 0px;
+    
+}
+.id{
+    display: block;
+    text-align: center;
+    background-color: rgb(212, 176, 16);
+    padding-top: 10%;
+    opacity: 70%;
+}
+.id p{
+    padding-bottom:
+}
+
+.one :hover{
+    transform: scale(1.05);
+    transition: 0.2s ease-in-out; 
+}
+.bl1:hover{
+    transform: scale(1.05);
+    transition: 0.2s ease-in-out;
+  
+  
+      
+}
+.bl2:hover{
+    transform: scale(1.05);
+    transition: 0.2s ease-in-out;
+    
+    
+}
+.three:hover{
+    transform: scale(1.05);
+    transition: 0.2s ease-in-out;
+    
+}
+.four:hover{
+    transform: scale(1.05);
+    transition: 0.2s ease-in-out;
+    
+    
+}
+.five:hover{
+    transform: scale(1.05);
+    transition: 0.2s ease-in-out;
+    
+    
+}
+.six:hover{
+    transform: scale(1.05);
+    transition: 0.2s ease-in-out;
+    
+    
+}
+.last_part{
+    display: flex;
+    justify-content: space-evenly;
+    background-color: rgb(204, 204, 58);
+    opacity: 80%;
+}
+.mini_logo{
+    padding-bottom: 10px;
+    position: relative;
+    bottom: 10px;
+}
+.hh{
+    color: gray;
+    margin-left: 25px;
+}
+.news_letter h3{
+    color: gray;
+   
+}
+.last_head h2{
+    margin-left: 40%;
+
+}
+.categories{
+    display: flex;
+    margin-left: 10%;
+}
+.si{
+    margin-left: 6%;
+    margin-top: 50px;
+    font-size: 22px;
+}
+.categories2{
+    display: flex;
+    margin-left: 45%;
+}
+.si2{
+    margin-top: 50px;
+    font-size: 22px;
+    margin-right: 10%;
+}
+.categories3{
+    display: flex;
+    margin-left: 4%;
+}
+.si3{
+    margin-left: -1%;
+    margin-top: 100px;
+    font-size: 22px;
+}
+.categories4{
+    display: flex;
+    margin-left: 40%;
+}
+.si4{
+    margin-top: 50px;
+    font-size: 22px;
+    margin-right: 10%;
+    margin-bottom: 20%;
+}
+.cati{
+    display: flex;
+    justify-content: center;
+    margin-right: 90px;
+}
+.about_us{
+    text-align: center;
+    font: 1em sans-serif;
+}
+
+
+
+
+
+
+
+
+
+
+
+/* @media (max-width: 786px;){
+    .last_part{
+        flex-direction: column;
+    }
+    
+} */
