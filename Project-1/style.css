@@ -3,21 +3,33 @@ body{
     padding: 0px;
     margin: 0;
     /* box-sizing: border-box; */
+    
 
 }
 .main_page{
     display: flex;
+    position: fixed;
     /* border-block: 1px solid black; */
     justify-content: space-between;
     align-items: center;
-    padding-right: 100px;
-    padding-left: 80px;
+    /* padding-right: 100px; */
+    /* padding-left: 80px; */
     box-shadow: 5px 5px 5px grey;
     margin: 0%;
     z-index: 50; 
-     
+    width: 100%;
+    background-color: azure;
+    
     
 }
+.logo{
+    margin-left: 15px;
+}
+
+.bar{
+    margin-right: 15px;
+}
+
 .bar :hover{
     color: rgb(17, 210, 72);
     
@@ -30,6 +42,7 @@ body{
 }
 .main_part{
     display: flex;
+    padding-top: 80px;
 }
 
 .green_box{
